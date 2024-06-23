@@ -10,7 +10,7 @@ const AuthLoadingScreen = ({ navigation }: { navigation: any }) => {
 
   useEffect(() => {
     dispatch(checkAuthStatus());
-  }, [dispatch]);
+  }, []);
 
   useEffect(() => {
     if (user !== null) {

@@ -1,11 +1,9 @@
 
-// src/types.ts
 export interface User {
   uid: string;
-  email: string | null; // Allow null as Firebase's User can have null email
+  email: string | null; 
   displayName?: string | null;
   photoURL?: string | null;
-  // Add other fields as needed
 }
 
   
