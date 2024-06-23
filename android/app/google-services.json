@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97633333152",
+    "project_id": "webskitters-ecom-app",
+    "storage_bucket": "webskitters-ecom-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97633333152:android:84dfb22d3c81c583c27ec5",
+        "android_client_info": {
+          "package_name": "com.webskitters_ecom_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL4xUCnVzRoO_BHMnQh8hOddmfCZU4BeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
