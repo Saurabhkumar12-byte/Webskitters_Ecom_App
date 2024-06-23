@@ -13,7 +13,7 @@ const ProductListScreen = ({ navigation }: { navigation: any }) => {
 
   useEffect(() => {
     dispatch(fetchProducts());
-  }, []); // Only run once on mount
+  }, []); 
 
   const handleDeleteProduct = (id: string) => {
     dispatch(deleteProduct(id));
@@ -48,8 +48,8 @@ const ProductListScreen = ({ navigation }: { navigation: any }) => {
                   <Button onPress={() => handleDeleteProduct(item.id)}>Delete</Button>
                 </View>
               )}
-              titleNumberOfLines={2} // Ensure title wraps properly
-              descriptionNumberOfLines={5} // Ensure description wraps properly
+              titleNumberOfLines={2} 
+              descriptionNumberOfLines={5} 
             />
           )}
         />

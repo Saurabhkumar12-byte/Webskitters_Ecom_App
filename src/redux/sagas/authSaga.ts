@@ -1,6 +1,6 @@
 import { takeLatest, put, call } from 'redux-saga/effects';
 import { User } from '../../types';
-import firebase from '../../config/firebase'; // Ensure correct path to your firebase configuration
+import firebase from '../../config/firebase'; 
 import { signUp, signUpSuccess, signUpFailure, checkAuthStatusSuccess, checkAuthStatusFailure } from '../slices/authSlice';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { login, loginSuccess, loginFailure } from '../slices/authSlice';
@@ -49,7 +49,6 @@ function* signUpSaga(action: PayloadAction<{ email: string; password: string }>)
   }
 }
 
-// Check authentication status
 function* checkAuthStatusSaga() {
   try {
     const user: User | null = yield call(() => {

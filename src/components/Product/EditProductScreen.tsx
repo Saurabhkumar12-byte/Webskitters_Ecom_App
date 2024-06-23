@@ -11,9 +11,9 @@ const EditProductScreen = ({ route, navigation }: { route: any; navigation: any 
   const { productId } = route.params;
   const product = useSelector((state: RootState) => selectProductById(state.product, productId));
   const [name, setName] = useState(product?.name || '');
-  const [price, setPrice] = useState(product?.price ? product.price : ''); // Check if product.price is defined
+  const [price, setPrice] = useState(product?.price ? product.price : ''); 
   const [description, setDescription] = useState(product?.description || '');
-  const [imageUrl, setImageUrl] = useState(product?.imageUrl || ''); // State for imageUrl
+  const [imageUrl, setImageUrl] = useState(product?.imageUrl || ''); 
   const dispatch = useDispatch();
   const { loading, error } = useSelector((state: RootState) => state.product);
 

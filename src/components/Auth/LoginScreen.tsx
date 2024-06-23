@@ -1,5 +1,3 @@
-// LoginScreen.tsx
-
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { TextInput, Button, Text } from 'react-native-paper';

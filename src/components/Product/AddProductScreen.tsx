@@ -9,8 +9,8 @@ import uuid from 'uuid-random';
 const AddProductScreen = ({ navigation }: { navigation: any }) => {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
-  const [description, setDescription] = useState(''); // New state for description
-  const [imageUrl, setImageUrl] = useState(''); // New state for image URL
+  const [description, setDescription] = useState('');
+  const [imageUrl, setImageUrl] = useState(''); 
   const dispatch = useDispatch();
   const { loading, error } = useSelector((state: RootState) => state.product);
 
